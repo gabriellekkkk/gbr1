@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(0, 225, 255) ;
+    color: rgb(255, 255, 255);
+    font-family: "Tiny5", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button{
+    background-color: rgb(196, 134, 0);
+    color: rgb(0, 0, 0);
+    font-family: "Tiny5", sans-serif;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 90%;
+}
+
+p{
+    text: 50px;
+}
